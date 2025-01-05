@@ -1,0 +1,16 @@
+2025-01-05 08:00:37,298 - TradingBot - INFO - Logging configurato correttamente.
+2025-01-05 08:00:39,144 - TradingBot - INFO - Il bot è stato avviato!
+2025-01-05 08:00:39,498 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getMe "HTTP/1.1 200 OK"
+2025-01-05 08:00:39,649 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-05 08:00:39,650 - telegram.ext.Application - INFO - Application started
+2025-01-05 08:00:39,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 08:00:39,891 - TradingBot - INFO - Esecuzione: start | Utente: OkkkkLol (1613494618) | Data: 2025-01-05 07:00:38+00:00 | Callback: N/A
+2025-01-05 08:00:40,118 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/sendMessage "HTTP/1.1 200 OK"
+2025-01-05 08:00:41,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 08:00:41,624 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/editMessageText "HTTP/1.1 200 OK"
+2025-01-05 08:00:51,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 08:00:53,996 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 08:00:54,382 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/sendMessage "HTTP/1.1 200 OK"
+2025-01-05 08:00:56,537 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 08:01:01,144 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/sendMessage "HTTP/1.1 200 OK"
+2025-01-05 08:01:10,911 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"

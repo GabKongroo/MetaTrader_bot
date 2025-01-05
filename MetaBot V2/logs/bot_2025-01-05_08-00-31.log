@@ -1,0 +1,5 @@
+2025-01-05 08:00:31,430 - TradingBot - INFO - Logging configurato correttamente.
+2025-01-05 08:00:33,298 - TradingBot - INFO - Il bot è stato avviato!
+2025-01-05 08:00:33,706 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getMe "HTTP/1.1 200 OK"
+2025-01-05 08:00:33,790 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-05 08:00:33,792 - telegram.ext.Application - INFO - Application started

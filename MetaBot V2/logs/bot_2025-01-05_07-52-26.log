@@ -1,0 +1,29 @@
+2025-01-05 07:52:26,300 - TradingBot - INFO - Logging configurato correttamente.
+2025-01-05 07:52:28,031 - TradingBot - INFO - Il bot è stato avviato!
+2025-01-05 07:52:28,444 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getMe "HTTP/1.1 200 OK"
+2025-01-05 07:52:28,526 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/deleteWebhook "HTTP/1.1 200 OK"
+2025-01-05 07:52:28,527 - telegram.ext.Application - INFO - Application started
+2025-01-05 07:52:29,970 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 07:52:29,971 - TradingBot - INFO - Esecuzione: start | Utente: OkkkkLol (1613494618) | Data: 2025-01-05 06:52:29+00:00 | Callback: N/A
+2025-01-05 07:52:30,249 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/sendMessage "HTTP/1.1 200 OK"
+2025-01-05 07:52:31,827 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 07:52:32,051 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/editMessageText "HTTP/1.1 200 OK"
+2025-01-05 07:52:37,173 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 07:52:37,476 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/sendMessage "HTTP/1.1 200 OK"
+2025-01-05 07:52:38,848 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 07:52:38,849 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\utente\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_application.py", line 1325, in process_update
+    await coroutine
+  File "C:\Users\utente\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\telegram\ext\_handlers\basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\utente\OneDrive\Desktop\MetaBot V2\bot\callback\registration.py", line 42, in handle_registration
+    if test_connection(project_settings=project_settings):
+       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\utente\OneDrive\Desktop\MetaBot V2\metatrader\connection.py", line 8, in test_connection
+    username = project_settings['mt5']['username']
+               ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'username'
+2025-01-05 07:52:48,940 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
+2025-01-05 07:52:59,028 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8012238163:AAFViMv2rkLJ8YjcL6uFZwXy7NfyjZ6m6gE/getUpdates "HTTP/1.1 200 OK"
