@@ -1,3 +1,0 @@
-user: 630223
-pass: *jQx8bWb
-server: TenTrade-Server
